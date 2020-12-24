@@ -1,0 +1,28 @@
+body{
+    padding-top:58px;
+}
+.wbdv-button-add{
+    color:red;
+}
+.wbdv-input{
+    margin-left: 19px;
+}
+.wbdv-button-align{
+    color:black;
+}
+.wbdv-button-add-sticky{
+    position: fixed;
+    bottom: 100px;
+    right: 90px;
+    color: red;
+}
+.wbdv-icon-file{
+    width: 30px;
+}
+.wbdv-header-sticky{
+    position: fixed;
+    top: 0px;
+    background-color:lightblue;
+    left: 0px;
+    right: 0px;
+}

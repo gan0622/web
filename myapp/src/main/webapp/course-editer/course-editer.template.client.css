@@ -1,0 +1,42 @@
+.wbdv-light-gray-border{
+    border: 1px solid lightgray;
+    margin-top: 35px;
+}
+body{
+    padding-top: 25px;
+}
+.wbdv-header{
+    position: fixed;
+    top: 0px;
+    background-color:lightblue;
+    left: 0px;
+    right: 0px;
+}
+.wbdv-header-space{
+    margin-right: 16px;
+}
+
+.wbdv-header-space1{
+    margin-right: 30px;
+}
+
+.wbdv-left-col{
+    background-color:lightgray;
+}
+.wbdv-col{
+    background-color:gray;
+    margin-bottom: 5px;
+}
+.wbdv-col2{
+    background-color:lightgray;
+    margin-right: 5px;
+}
+.wbdv-right{
+    margin-top: -30px;
+    margin-bottom: 5px;
+}
+
+.wbdv-right-1{
+    margin-bottom: 10px;
+
+}
