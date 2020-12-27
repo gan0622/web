@@ -1,0 +1,9 @@
+.header-icon{
+    white-space: nowrap
+}
+
+.hidetext { -webkit-text-security: disc; /* Default */ }
+
+.wbdv-hidden{
+    display:none;
+}

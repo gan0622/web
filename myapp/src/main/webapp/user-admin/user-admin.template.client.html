@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User Admin</title>
+    <link rel="stylesheet" href=
+            "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href=
+            "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="user-admin.style.client.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../service/user.service.client.js"></script>
+    <script src="user-admin.controller.client.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <h1>User Admin</h1>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Username</th>
+            <th>Password</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Role</th>
+            <th>&nbsp</th>
+        </tr>
+
+
+        <tr class="wbdv-form">
+            <td><input id="usernameFld" class="form-control"
+                       placeholder="Username" /></td>
+            <td><input id="passwordFld" class="form-control"
+                       placeholder="Password" type="password"/></td>
+            <td><input id="firstNameFld" class="form-control"
+                       placeholder="First Name" /></td>
+            <td><input id="lastNameFld" class="form-control"
+                       placeholder="Last Name" /></td>
+            <td><select id="roleFld" class="form-control" placeholder = "FACULTY">
+                <option></option>
+                <option value="FACULTY">FACULTY</option>
+                <option value="STUDENT">STUDENT</option>
+                <option value="ADMIN">ADMIN</option>
+            </select></td>
+            <td><span class="float-right header-icon">
+                        <a href = "#">
+                            <i class="fa-2x fa fa-search wbdv-search"></i>
+                        </a>
+                        <a href = "#">
+                            <i class="fa-2x fa fa-plus wbdv-create"></i>
+                        </a>
+                        <a href = "#">
+                            <i class="fa-2x fa fa-check wbdv-update"></i>
+                        </a>
+                        </span>
+            </td>
+        </tr>
+        </thead>
+        <tbody class="wbdv-tbody">
+        <tr class="wbdv-template wbdv-user wbdv-hidden">
+            <td class="wbdv-username">ada</td>
+            <td class="wbdv-password hidetext">**</td>
+            <td class="wbdv-first-name">ada</td>
+            <td class="wbdv-last-name">ada</td>
+            <td class="wbdv-role">FACULTY</td>
+            <td class="wbdv-actions">
+                        <span class="float-right">
+                          <a href = "#">
+                              <i class="fa-2x fa fa-times wbdv-remove"></i>
+                          </a>
+                          <a href = "#">
+                            <i class="fa-2x fa fa-pencil wbdv-edit"></i>
+                          </a>
+                        </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
